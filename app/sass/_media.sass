@@ -1,0 +1,156 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width : 1250px)
+	.header 
+		.bottom-line
+			.flex-container
+				align-items: flex-start
+				justify-content: space-between
+				.logo
+					align-items: flex-start
+					margin: 0
+					text-align: center
+					
+
+				.panel
+					flex-direction: column
+					justify-content: center
+					min-width: 103px
+
+					a
+						margin-bottom: 15px
+						align-self: flex-end
+						border: none
+						&:last-child
+							margin-bottom: 0
+							margin-top: 20px
+
+			.call
+				justify-content: flex-start
+				.phone
+					margin: 0
+				.mod-btt
+					margin: 0
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1180px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.main
+		.flex-container
+			flex-wrap: wrap
+
+	.panel
+		width: 100px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.header
+		.top-line
+			.nav
+				position: relative
+				.top-menu
+					display: none 
+					position: absolute
+					background-color: #696969
+					left: 0
+					top: 100%
+					width: 100%
+					text-align: center
+					opacity: 0.9
+					li
+						display: block
+						margin: 0
+						a 
+							display: block
+
+				.menu-trigger
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					position: relative
+
+
+	.header
+		.bottom-line
+			.flex-container
+				flex-wrap: wrap
+				.panel
+					flex-direction: row
+					min-width: 100%
+					order: 1
+					.wrap-uss
+						margin: auto
+						&:nth-child(3)
+							margin-top: 10px
+							margin-bottom: 15px
+			.call
+				flex-direction: column
+				justify-content: flex-start
+
+	.main-menu
+		li 
+			a
+			.son
+				position: relative
+				bottom: 0
+				left: 0	
+				text-align: center
+				// display: block
+				width: 100%
+				a 
+					background-color: #d3d3d3
+	
+	.wrap-popup
+		min-width: 320px
+// @media only screen and (max-width : 500px)
+
+	
+ 	
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+    
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
+
